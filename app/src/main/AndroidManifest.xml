@@ -20,13 +20,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".sommeil_accueil" />
-        <activity android:name=".analyse_nuit" />
         <activity android:name=".sommeil_semaine" />
         <activity android:name=".sport_bilan" />
         <activity android:name=".sport_liste_bilan" />
         <activity android:name=".sport_selection" />
         <activity android:name=".sport_objectif" />
-        <activity android:name=".sport_activite"></activity>
+        <activity android:name=".sport_activite" />
+        <activity android:name=".sommeil_nuit"></activity>
     </application>
 
 </manifest>
