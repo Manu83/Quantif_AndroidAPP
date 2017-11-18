@@ -4,15 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.insa.quantif_androidapp.sommeil_accueil">
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dernière nuit"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="181dp" />
-
+    tools:context="com.example.insa.quantif_androidapp.sport_liste_bilan">
 
 </android.support.constraint.ConstraintLayout>

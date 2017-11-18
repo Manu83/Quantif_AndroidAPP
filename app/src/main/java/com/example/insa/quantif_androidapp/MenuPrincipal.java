@@ -90,9 +90,8 @@ public class MenuPrincipal extends AppCompatActivity
         } else if (id == R.id.nav_activite) {
 
         } else if (id == R.id.nav_sommeil) {
-            Intent intent = new Intent(this, sommeil_accueil.class);
+            Intent intent = new Intent(MenuPrincipal.this, sommeil_accueil.class);
             startActivity(intent);
-
 
         } else if (id == R.id.nav_parametres) {
 

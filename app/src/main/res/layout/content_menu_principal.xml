@@ -8,4 +8,39 @@
     tools:context="com.example.insa.quantif_androidapp.MenuPrincipal"
     tools:showIn="@layout/app_bar_menu_principal">
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="405dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:text="Debuter une activite" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="382dp"
+            android:layout_height="245dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="Recap sommeil" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="382dp"
+            android:layout_height="260dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:text="Recap Sport" />
+
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
