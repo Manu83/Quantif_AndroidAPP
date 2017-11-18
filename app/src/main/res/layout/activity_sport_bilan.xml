@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.insa.quantif_androidapp.sport_bilan">
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="381dp"
+        android:layout_height="563dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

@@ -6,4 +6,35 @@
     android:layout_height="match_parent"
     tools:context="com.example.insa.quantif_androidapp.sommeil_semaine">
 
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="248dp"
+            android:layout_height="220dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginTop="64dp"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="53dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="261dp"
+            android:layout_height="108dp"
+            android:text="Vous avez plutôt bien dormi cette semaine :)"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
