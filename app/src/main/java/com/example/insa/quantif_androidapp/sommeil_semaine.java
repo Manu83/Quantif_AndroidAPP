@@ -7,6 +7,7 @@ public class sommeil_semaine extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Bilan de la semaine");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sommeil_semaine);
     }

@@ -7,6 +7,7 @@ public class sommeil_nuit extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Votre dernière nuit");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sommeil_nuit);
     }

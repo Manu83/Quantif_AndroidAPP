@@ -10,6 +10,7 @@ public class sommeil_accueil extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Historique de sommeil");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sommeil_accueil);
         final ImageButton objectif = (ImageButton) findViewById(R.id.imageButton7);
