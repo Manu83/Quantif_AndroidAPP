@@ -13,7 +13,7 @@ public class sport_selection extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sport_selection);
 
-        final ImageButton objectif = (ImageButton) findViewById(R.id.imageButton2);
+        final ImageButton objectif = (ImageButton) findViewById(R.id.imageButton5);
         objectif.setOnClickListener(new View.OnClickListener() {
 
             @Override
