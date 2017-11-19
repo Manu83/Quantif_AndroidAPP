@@ -13,6 +13,8 @@ public class sport_objectif extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sport_objectif);
 
+        setTitle("Vélo - balade");
+
         final ImageButton objectif = (ImageButton) findViewById(R.id.imageButton);
         objectif.setOnClickListener(new View.OnClickListener() {
 

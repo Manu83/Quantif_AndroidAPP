@@ -7,7 +7,6 @@
     tools:context="com.example.insa.quantif_androidapp.sport_selection"
     tools:layout_editor_absoluteY="81dp">
 
-
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"

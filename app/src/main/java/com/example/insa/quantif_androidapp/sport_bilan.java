@@ -13,6 +13,8 @@ public class sport_bilan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sport_bilan);
 
+        setTitle("Activité terminée");
+
         final ImageButton objectif = (ImageButton) findViewById(R.id.imageButton3);
         objectif.setOnClickListener(new View.OnClickListener() {
 
