@@ -14,33 +14,22 @@
         android:layout_height="fill_parent"
         >
 
-        <Button
-            android:id="@+id/button"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="405dp"
-            android:layout_height="65dp"
-            android:layout_below="@+id/textView3"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="9dp"
-            android:text="Debuter une activite" />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="514dp"
+        app:srcCompat="@drawable/homepage1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="382dp"
-            android:layout_height="245dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="21dp"
-            android:text="Recap sommeil" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="382dp"
-            android:layout_height="260dp"
-            android:layout_below="@+id/textView2"
-            android:layout_centerHorizontal="true"
-            android:text="Recap Sport" />
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="397dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/homepage2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView11"
+        />
 
     </RelativeLayout>
-
 </android.support.constraint.ConstraintLayout>
