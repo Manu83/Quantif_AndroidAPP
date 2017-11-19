@@ -11,14 +11,22 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="381dp"
-        android:layout_height="563dp"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="450dp"
+            android:layout_height="600dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="100dp"
+            app:srcCompat="@drawable/sportbilan" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/sportbilanbouton" />
 
     </RelativeLayout>
 

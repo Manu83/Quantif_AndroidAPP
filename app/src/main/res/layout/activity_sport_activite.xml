@@ -12,40 +12,35 @@
         android:layout_height="fill_parent"
         >
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="363dp"
-        android:layout_height="210dp"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="9dp"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="650dp"
+            android:layout_height="480dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/sportactiviteimg" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="361dp"
-        android:layout_height="190dp"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:layout_below="@+id/imageView3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button3"
             android:layout_width="132dp"
             android:layout_height="76dp"
-            android:layout_alignStart="@+id/imageView4"
+            app:srcCompat="@drawable/sportactivitebouton1"
+            android:layout_alignStart="@+id/imageView3"
             android:layout_alignTop="@+id/button4"
             android:layout_marginStart="15dp"
             android:text="Button" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button4"
             android:layout_width="132dp"
             android:layout_height="76dp"
-            android:layout_alignEnd="@+id/imageView4"
-            android:layout_below="@+id/imageView4"
-            android:layout_marginTop="32dp"
-            android:text="Button" />
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="19dp"
+            android:layout_marginEnd="19dp"
+            android:text="Button"
+            app:srcCompat="@drawable/sportactivitebouton2" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
