@@ -26,6 +26,10 @@
         <activity android:name=".sport_objectif" />
         <activity android:name=".sport_activite" />
         <activity android:name=".sommeil_nuit"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
