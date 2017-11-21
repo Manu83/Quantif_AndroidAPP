@@ -175,7 +175,9 @@
                 android:layout_alignEnd="@+id/editText2"
                 android:layout_below="@+id/textView3"
                 android:layout_weight="1"
-                android:layoutDirection="rtl" />
+                android:layoutDirection="rtl"
+                android:buttonTint="@color/radio_button"
+                android:textColorLink="@android:color/holo_blue_bright" />
 
             <RadioButton
                 android:id="@+id/radioButton"
@@ -185,7 +187,9 @@
                 android:layout_below="@+id/textView2"
                 android:layout_weight="1"
                 android:layoutDirection="rtl"
-                android:textAlignment="textEnd" />
+                android:textAlignment="textEnd"
+                android:buttonTint="@color/radio_button"
+                android:textColorLink="@android:color/holo_blue_bright" />
 
             <RadioButton
                 android:id="@+id/radioButton5"
@@ -197,7 +201,9 @@
                 android:layout_weight="1"
                 android:checked="false"
                 android:layoutDirection="rtl"
-                android:textAlignment="textEnd" />
+                android:textAlignment="textEnd"
+                android:buttonTint="@color/radio_button"
+                android:textColorLink="@android:color/holo_blue_bright" />
         </RadioGroup>
 
     </RelativeLayout>
