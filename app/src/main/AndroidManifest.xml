@@ -25,11 +25,16 @@
         <activity android:name=".sport_selection" />
         <activity android:name=".sport_objectif" />
         <activity android:name=".sport_activite" />
-        <activity android:name=".sommeil_nuit"></activity>
+        <activity android:name=".sommeil_nuit" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".sport_activitev2" />
+        <activity android:name=".sommeil_bilan" />
+        <activity android:name=".sommeil_analysepro" />
+        <activity android:name=".sommeil_analysemouv"></activity>
     </application>
 
 </manifest>
