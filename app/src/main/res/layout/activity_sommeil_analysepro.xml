@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context="com.example.insa.quantif_androidapp.sommeil_analysepro">
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/sommeil_profbouton" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton2"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/sommeil_prof" />
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
