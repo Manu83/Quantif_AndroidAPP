@@ -12,6 +12,7 @@
         <activity
             android:name=".MenuPrincipal"
             android:label="Quantif"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,22 +20,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".sommeil_accueil" />
-        <activity android:name=".sommeil_semaine" />
-        <activity android:name=".sport_bilan" />
-        <activity android:name=".sport_selection" />
-        <activity android:name=".sport_objectif" />
-        <activity android:name=".sport_activite" />
-        <activity android:name=".sommeil_nuit" />
+        <activity android:name=".sommeil_accueil"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sommeil_semaine"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sport_bilan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sport_selection"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sport_objectif"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sport_activite"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sommeil_nuit"
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".sport_activitev2" />
-        <activity android:name=".sommeil_bilan" />
-        <activity android:name=".sommeil_analysepro" />
-        <activity android:name=".sommeil_analysemouv"></activity>
+        <activity android:name=".sport_activitev2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sommeil_bilan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sommeil_analysepro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sommeil_analysemouv"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

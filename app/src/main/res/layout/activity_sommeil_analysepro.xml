@@ -19,6 +19,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/white"
             app:srcCompat="@drawable/sommeil_profbouton" />
 
         <ImageView

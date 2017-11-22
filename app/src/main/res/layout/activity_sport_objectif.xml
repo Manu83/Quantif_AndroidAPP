@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/background_light"
             app:srcCompat="@drawable/sportobjbouton" />
 
         <TextView
@@ -123,7 +124,7 @@
             android:background="@android:color/transparent"
             android:ems="10"
             android:fontFamily="@font/roboto"
-            android:hint="00"
+            android:hint="000"
             android:inputType="numberDecimal"
             android:textSize="30sp" />
 
@@ -135,7 +136,7 @@
             android:layout_below="@+id/view2"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto"
-            android:text="Vitesse"
+            android:text="Calories"
             android:textSize="14sp" />
 
         <View
@@ -155,11 +156,12 @@
             android:layout_alignBottom="@+id/editText3"
             android:layout_toEndOf="@+id/textView2"
             android:fontFamily="@font/roboto"
-            android:text="KM / H"
+            android:text="KCAL"
             android:textAlignment="center"
             android:textSize="18sp" />
 
         <RadioGroup
+            android:id="@+id/radiogroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -169,7 +171,7 @@
 
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radio1"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:layout_alignEnd="@+id/editText2"
@@ -180,7 +182,7 @@
                 android:textColorLink="@android:color/holo_blue_bright" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radio2"
                 android:layout_width="match_parent"
                 android:layout_height="101dp"
                 android:layout_alignEnd="@+id/editText"
@@ -192,7 +194,7 @@
                 android:textColorLink="@android:color/holo_blue_bright" />
 
             <RadioButton
-                android:id="@+id/radioButton5"
+                android:id="@+id/radio3"
                 style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"

@@ -20,8 +20,7 @@ public class sommeil_analysemouv extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(sommeil_analysemouv.this, sommeil_analysepro.class);
-                startActivity(intent);
+                finish();
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

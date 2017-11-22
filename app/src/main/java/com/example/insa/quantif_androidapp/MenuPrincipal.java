@@ -1,6 +1,9 @@
 package com.example.insa.quantif_androidapp;
 
+import android.app.ActionBar;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -24,19 +27,9 @@ public class MenuPrincipal extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setTitle("Accueil");
         setContentView(R.layout.activity_menu_principal);
+        getWindow().getDecorView().setBackgroundColor(Color.WHITE);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        //Bouton rose "messages" supprimé
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        */
 
         //Bouton "Démarer une activité"
         final ImageButton demarerActivite = (ImageButton) findViewById(R.id.imageButton8);
@@ -57,6 +50,8 @@ public class MenuPrincipal extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#2196F3")));
     }
 
     @Override
