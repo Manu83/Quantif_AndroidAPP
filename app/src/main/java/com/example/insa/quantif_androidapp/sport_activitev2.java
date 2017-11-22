@@ -8,35 +8,33 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class sport_activite extends AppCompatActivity {
+public class sport_activitev2 extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sport_activite);
+        setContentView(R.layout.activity_sport_activitev2);
 
         setTitle("Vélo - balade");
 
-        final ImageButton objectif = (ImageButton) findViewById(R.id.button3);
+        final ImageButton objectif = (ImageButton) findViewById(R.id.button10);
         objectif.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(sport_activite.this, sport_bilan.class);
+                Intent intent = new Intent(sport_activitev2.this, sport_bilan.class);
                 startActivity(intent);
             }
         });
-
-        final ImageButton objectif2 = (ImageButton) findViewById(R.id.button4);
+        final ImageButton objectif2 = (ImageButton) findViewById(R.id.button11);
         objectif2.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(sport_activite.this, sport_activitev2.class);
-                startActivity(intent);
+                finish();
             }
         });
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

@@ -8,37 +8,25 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class sport_activite extends AppCompatActivity {
+public class sommeil_analysemouv extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Analyse de la nuit");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sport_activite);
-
-        setTitle("Vélo - balade");
-
-        final ImageButton objectif = (ImageButton) findViewById(R.id.button3);
+        setContentView(R.layout.activity_sommeil_analysemouv);
+        final ImageButton objectif = (ImageButton) findViewById(R.id.imageButton4);
         objectif.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(sport_activite.this, sport_bilan.class);
+                Intent intent = new Intent(sommeil_analysemouv.this, sommeil_analysepro.class);
                 startActivity(intent);
             }
         });
-
-        final ImageButton objectif2 = (ImageButton) findViewById(R.id.button4);
-        objectif2.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(sport_activite.this, sport_activitev2.class);
-                startActivity(intent);
-            }
-        });
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

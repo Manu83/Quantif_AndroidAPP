@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.insa.quantif_androidapp.sommeil_nuit">
+    tools:context="com.example.insa.quantif_androidapp.sommeil_bilan">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
@@ -13,21 +13,31 @@
         >
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imageView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="349dp"
-            app:srcCompat="@drawable/sommeil_nuit1" />
+            android:layout_marginBottom="230dp"
+            app:srcCompat="@drawable/sommeil_bilan1" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imageButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/imageView6"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="227dp"
-            app:srcCompat="@drawable/sommeil_nuitbouton" />
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="134dp"
+            app:srcCompat="@drawable/sommeil_bilanbouton" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageButton10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88dp"
+            app:srcCompat="@drawable/sommeil_bilan2" />
     </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
